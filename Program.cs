@@ -13,15 +13,15 @@ namespace Herança
             danilo.Salario = 1000;
             Console.WriteLine("Bonificação: " + danilo.GetBonificação());
 
-            Gerente francisco = new Gerente("123.456.789-60");
+            Gerente mario = new Gerente("123.456.789-60");
 
-            francisco.Nome = "Francisco";
-            francisco.Salario = 19000;
-            Console.WriteLine("Bonificação: " + francisco.GetBonificação());
+            mario.Nome = "Francisco";
+            mario.Salario = 19000;
+            Console.WriteLine("Bonificação: " + mario.GetBonificação());
 
             Registro reg = new Registro();
             Console.WriteLine(reg.registrarBonificacao(danilo));
-            Console.WriteLine(reg.registrarBonificacao(francisco));
+            Console.WriteLine(reg.registrarBonificacao(mario));
             Console.WriteLine(Funcionario.TotalDeFuncionarios);
         }
     }
