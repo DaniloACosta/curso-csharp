@@ -9,3 +9,14 @@ C:\Danilo\Herança\obj\Debug\netcoreapp2.1\Herança.AssemblyInfoInputs.cache
 C:\Danilo\Herança\obj\Debug\netcoreapp2.1\Herança.AssemblyInfo.cs
 C:\Danilo\Herança\obj\Debug\netcoreapp2.1\Herança.dll
 C:\Danilo\Herança\obj\Debug\netcoreapp2.1\Herança.pdb
+C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\Herança.deps.json
+C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\Herança.runtimeconfig.json
+C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\Herança.runtimeconfig.dev.json
+C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\Herança.dll
+C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\Herança.pdb
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\Herança.csprojAssemblyReference.cache
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\Herança.csproj.CoreCompileInputs.cache
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\Herança.AssemblyInfoInputs.cache
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\Herança.AssemblyInfo.cs
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\Herança.dll
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\Herança.pdb

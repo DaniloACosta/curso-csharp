@@ -688,30 +688,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\daniloc\\.nuget\\packages\\": {},
+    "C:\\Users\\dnl_a\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Danilo\\Herança\\Herança.csproj",
+      "projectUniqueName": "C:\\Danilo\\curso-csharp\\Herança.csproj",
       "projectName": "Herança",
-      "projectPath": "C:\\Danilo\\Herança\\Herança.csproj",
-      "packagesPath": "C:\\Users\\daniloc\\.nuget\\packages\\",
-      "outputPath": "C:\\Danilo\\Herança\\obj\\",
+      "projectPath": "C:\\Danilo\\curso-csharp\\Herança.csproj",
+      "packagesPath": "C:\\Users\\dnl_a\\.nuget\\packages\\",
+      "outputPath": "C:\\Danilo\\curso-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\daniloc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\dnl_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "http://nuget.dev.me.com.br/nuget": {},
-        "https://nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
