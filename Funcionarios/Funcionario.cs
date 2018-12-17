@@ -1,13 +1,12 @@
 using System;
 
-namespace Herança.Funcionarios
+namespace curso_csharp.Funcionarios
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
        public Funcionario(String cpf, double salario)
        {
-            TotalDeFuncionarios++;            
-            Console.WriteLine("Criando o Funcionario");
+            TotalDeFuncionarios++;
             this.CPF = cpf;
             this.Salario = salario;
         }
@@ -26,6 +25,11 @@ namespace Herança.Funcionarios
             // this.Salario = this.Salario + (this.Salario  * 0.1);
             // this.Salario = this.Salario * 1.1;
             this.Salario *= 1.1; 
-        }   
+        }
+
+        protected void MessangemCricaoConta(string Mensagem)
+        {
+            Console.WriteLine("Criando o {0}.", Mensagem);
+        }  
     }
 }

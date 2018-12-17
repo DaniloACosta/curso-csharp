@@ -1,6 +1,6 @@
-using Herança.Funcionarios;
+using curso_csharp.Funcionarios;
 
-namespace Herança
+namespace curso_csharp
 {
     public class Registro
     {
@@ -8,6 +8,11 @@ namespace Herança
 
         public double registrarBonificacao(Funcionario funcionario){
             return _TotalBonificacao += funcionario.GetBonificação();
+        }
+
+        public double GetBonificação()
+        {
+            return _TotalBonificacao;
         }
         
     }   

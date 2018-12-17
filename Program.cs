@@ -1,31 +1,30 @@
 ﻿using System;
-using Herança.Funcionarios;
+using curso_csharp.Funcionarios;
 
-namespace Herança
+namespace curso_csharp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Funcionario danilo = new Funcionario("414.891.138-60", 1000);            
-            danilo.Nome = "Danilo";
-            Console.WriteLine("Bonificação: " + danilo.GetBonificação());
-            Console.WriteLine("Nome: {0} - Salário: {1};", danilo.Nome, danilo.Salario);
+            CalcularBonificacao();
+        }
 
-            Gerente mario = new Gerente("123.456.789-60", 19000);
-            mario.Nome = "Francisco";
-            Console.WriteLine("Bonificação: " + mario.GetBonificação());
-            Console.WriteLine("Nome: {0} - Salário: {1};", mario.Nome, mario.Salario);
-
-            danilo.AumentarSalario();
-            mario.AumentarSalario();
-            Console.WriteLine("Salário {0} aumentou para {1}.", danilo.Nome, danilo.Salario);
-            Console.WriteLine("Salário {0} aumentou para {1}.", mario.Nome, mario.Salario);
-
+        public static void CalcularBonificacao()
+        {
             Registro reg = new Registro();
-            Console.WriteLine(reg.registrarBonificacao(danilo));
-            Console.WriteLine(reg.registrarBonificacao(mario));
-            Console.WriteLine(Funcionario.TotalDeFuncionarios);
+
+            Auxiliar charles = new Auxiliar("123.456.789-60");
+            Designer saltiago = new Designer("789.456.123.80");
+            Diretor diaz = new Diretor("147.258.369-10");
+            GerenteDeConta jake = new GerenteDeConta("369.258.147-50");
+            
+            reg.registrarBonificacao(charles);
+            reg.registrarBonificacao(saltiago);
+            reg.registrarBonificacao(diaz);
+            reg.registrarBonificacao(jake);
+
+            Console.WriteLine("O custo total gasto com bonificação foi R$ {0}", string.Format("{0:0,0.00}", reg.GetBonificação()));
         }
     }
 }
