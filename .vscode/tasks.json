@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Herança.csproj"
+                "${workspaceFolder}/curso_csharp.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

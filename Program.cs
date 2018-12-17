@@ -18,8 +18,10 @@ namespace curso_csharp
             Designer saltiago = new Designer("789.456.123.80");
             Diretor diaz = new Diretor("147.258.369-10");
             GerenteDeConta jake = new GerenteDeConta("369.258.147-50");
-            
+            Desenvolvedor dany = new Desenvolvedor("159478236-60");
+
             reg.registrarBonificacao(charles);
+            reg.registrarBonificacao(dany);
             reg.registrarBonificacao(saltiago);
             reg.registrarBonificacao(diaz);
             reg.registrarBonificacao(jake);
