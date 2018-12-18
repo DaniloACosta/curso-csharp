@@ -2,7 +2,7 @@ using System;
 
 namespace curso_csharp.Funcionarios
 {
-    public class GerenteDeConta : Funcionario
+    public class GerenteDeConta : Autentifica
     {
         public GerenteDeConta(string cpf) : base(cpf, 4000)
         {

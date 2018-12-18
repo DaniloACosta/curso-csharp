@@ -1,5 +1,6 @@
 ﻿using System;
 using curso_csharp.Funcionarios;
+using curso_csharp.Sistema;
 
 namespace curso_csharp
 {
@@ -7,7 +8,8 @@ namespace curso_csharp
     {
         static void Main(string[] args)
         {
-            CalcularBonificacao();
+            //CalcularBonificacao();
+            UsarSistema();
         }
 
         public static void CalcularBonificacao()
@@ -27,6 +29,15 @@ namespace curso_csharp
             reg.registrarBonificacao(jake);
 
             Console.WriteLine("O custo total gasto com bonificação foi R$ {0}", string.Format("{0:0,0.00}", reg.GetBonificação()));
+        }
+
+        public static void UsarSistema()
+        {
+           Diretor diaz = new Diretor("147.258.369-10");
+           diaz.Senha = "123";
+
+           SistemaInterno entrarSistema = new SistemaInterno();
+           entrarSistema.Logar(diaz, "1234");
         }
     }
 }

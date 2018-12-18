@@ -4,7 +4,7 @@ namespace curso_csharp.Funcionarios
 {
     public abstract class Funcionario
     {
-       public Funcionario(String cpf, double salario)
+       public Funcionario(string cpf, double salario)
        {
             TotalDeFuncionarios++;
             this.CPF = cpf;
