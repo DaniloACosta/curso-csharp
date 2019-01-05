@@ -10,7 +10,30 @@ namespace curso_csharp
         {
             //CalcularBonificacao();
             UsarSistema();
+
+            Console.ReadKey();
+
+        //public abstract class Casa
+        //{
+
+        //    public abstract void AbrirPorta();
+
+        //}
+
+        //public interface Carro
+        //{
+        //    void AbrirPorta();
+        //}
+
+        //public class Exemplo : Casa, Carro
+        //{
+        //    public override void AbrirPorta()
+        //    {
+
+        //    }
         }
+
+
 
         public static void CalcularBonificacao()
         {
@@ -33,11 +56,16 @@ namespace curso_csharp
 
         public static void UsarSistema()
         {
-           Diretor diaz = new Diretor("147.258.369-10");
-           diaz.Senha = "123";
+            Diretor diaz = new Diretor("147.258.369-10");
+            diaz.Senha = "123";
 
-           SistemaInterno entrarSistema = new SistemaInterno();
-           entrarSistema.Logar(diaz, "1234");
+            SistemaInterno entrarSistema = new SistemaInterno();
+            entrarSistema.Logar(diaz, "123");
+
+            ParceiroComercial Terry = new ParceiroComercial();
+            Terry.Senha = "159";
+            entrarSistema.Logar(Terry, "159");
+
         }
     }
 }

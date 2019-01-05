@@ -2,7 +2,7 @@ using System;
 
 namespace curso_csharp.Funcionarios
 {
-    public class Diretor : Autentifica
+    public class Diretor : FuncionarioAutenticavel
     {
         public Diretor(string cpf) : base(cpf, 5000)
         {

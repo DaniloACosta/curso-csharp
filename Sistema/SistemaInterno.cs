@@ -5,14 +5,16 @@ namespace curso_csharp.Sistema
 {
     public class SistemaInterno
     {
-        public void Logar(Autentifica usuario, string senha)
+        public bool Logar(IAutenticavel usuario, string senha)
         {
-            if(usuario.Autentificado(senha))
+            if(usuario.Autentificar(senha))
             {
                 Console.WriteLine("Seja Bem Vindo!");
+                return true;
             }else{
                 Console.WriteLine("Login Failed");
+                return false;
             }
         }
     }
-}
+}       

@@ -14,9 +14,9 @@ C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\curso_csharp.runtimeconfig.json
 C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\curso_csharp.runtimeconfig.dev.json
 C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\curso_csharp.dll
 C:\Danilo\curso-csharp\bin\Debug\netcoreapp2.1\curso_csharp.pdb
-C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.csprojAssemblyReference.cache
 C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.csproj.CoreCompileInputs.cache
 C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.AssemblyInfoInputs.cache
 C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.AssemblyInfo.cs
 C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.dll
 C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.pdb
+C:\Danilo\curso-csharp\obj\Debug\netcoreapp2.1\curso_csharp.csprojResolveAssemblyReference.cache
